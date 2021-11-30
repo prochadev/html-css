@@ -7,17 +7,25 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +36,8 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, tempora asperiores laboriosam soluta at, sit dignissimos dolores quis perspiciatis cum sunt officia dolorum ipsum architecto nihil, earum vero atque accusamus!. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita veniam placeat porro ipsam sequi deserunt obcaecati, nemo quia illum, quibusdam cumque commodi ullam voluptate eius fugiat. Consectetur ea ullam nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, sequi consequuntur. Quo, possimus iure. Odio accusantium ratione saepe consectetur, rerum repellendus totam ipsam cumque culpa sequi nisi, nemo illum unde.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, tempora asperiores laboriosam soluta at, sit dignissimos dolores quis perspiciatis cum sunt officia dolorum ipsum architecto nihil, earum vero atque accusamus!. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita veniam placeat porro ipsam sequi deserunt obcaecati, nemo quia illum, quibusdam cumque commodi ullam voluptate eius fugiat. Consectetur ea ullam nam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, sequi consequuntur.</p> <p>Quo, possimus iure. Odio accusantium ratione saepe consectetur, rerum repellendus totam ipsam cumque culpa sequi nisi, nemo illum unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quae. Veritatis laudantium sunt consectetur explicabo ipsa dolores itaque quos veniam, praesentium dolorum ab. Dolores odio illo consequatur totam voluptatem adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto maxime deserunt unde vel, nobis quibusdam necessitatibus. Blanditiis voluptatem dolorum veritatis error </p>similique quaerat tempora illum natus mollitia veniam, dolorem adipisci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, possimus officiis maxime illum soluta nostrum veniam temporibus pariatur magnam aliquam quod, quidem veritatis corrupti libero suscipit, quasi maiores fuga. Cupiditate!
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium amet voluptas a sint repudiandae, itaque necessitatibus doloremque velit reiciendis laboriosam ipsam sit error libero inventore sunt. Iste rem vitae ullam?</p>
     </main>
 </body>
 </html>
