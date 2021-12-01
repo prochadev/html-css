@@ -7,29 +7,27 @@
     <title>Astronauta</title>
     <style>
         #container {
-            background: url('imagens/espaco.jpg') center center no-repeat;
+            background: url('imagens/espaco.jpg') no-repeat center center fixed;
             background-size: cover;
-            height: 97vh;
             position: relative;
+            height: 10em;
+            display: flex;
+            align-items: center;
+            justify-content: center
         }
 
         #conteudo {
-            background-image: url('imagens/astronauta.png');
-            background-size: 100% 100%;
+            background: url('imagens/astronauta.png') no-repeat center center;
             position: absolute;
-            height: 400px;
-            width: 400px;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            height: 500px;
+            width: 500px;
+            transform: translate(0, 50%);
         }
     </style>
 </head>
-<body>
-    <section id="container">
-        <article id="conteudo">
+<body id="container">
+    <main id="conteudo">
 
-        </article>
-    </section>
+    </main>
 </body>
 </html>
